@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertion App</title>
+</head>
+
+<body>
+
+    <script src="convert.mjs" type="module"></script>
+    <script src="test.mjs" type="module"></script>
+
+    <h1>Convert Inches to MM/CM/M.</h1>
+    <p>In this program, you can convert inches to MM/CM/M!</p>
+
+    <label for="inchesInput">Enter Inches:</label>
+    <input type="number" id="inchesInput" placeholder="Enter Inches.">
+
+    <label for="unitSelect">Select unit:</label>
+    <select id="unitSelect">
+        <option value="-mm">mm</option>
+        <option value="-cm">cm</option>
+        <option value="-m">m</option>
+    </select>
+
+    <button id="convertButton">Convert</button>
+
+    <ul id="outputText"></ul>
+
+</body>
+
+
+</html>
